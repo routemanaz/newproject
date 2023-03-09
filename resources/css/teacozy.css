@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    opacity: 0.9;
+    font-size: 22px;
+    overflow-x: hidden;
+
+
+
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline;
+   
+    
+}
+nav{
+    position: fixed;
+    z-index: 2;
+    
+}
+
+.logo{
+    float: left;
+    
+}
+
+.mission{
+}
+
+
+
+
+.banner{
+    display: inline;
+    position: relative;
+    left: 1000px;
+    text-decoration: underline;
+    z-index: -2;
+}
+    
+
+.our-mission-background{
+    background: url('/resources/images/img-mission-background.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    position: relative;
+    top:100px;
+    z-index: -2;
+    
+
+}
+
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    
+
+    
+    
+}
+
+
+
+.container{
+    position: relative;
+    top: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+   
+   
+    
+   
+}
+
+.images{
+    height: 200px;
+    width: 300px;
+
+}
+
+.secondimage{
+    position: relative;
+    top: 200px;
+    left: 500px;
+    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    
+   
+}
+
+.locationcontainer{
+    display: flex;
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    top: 300px;
+    left: 200px;
+    height: 500px;
+    background: url('../images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 300px;
+    
+    position: relative;
+    right: 400px;
+}
+
+.loitem{
+    list-style: none;
+}
+
+.contact{
+    position: relative;
+    top: 350px;
+    left: 700px;
+}
+
+.month{
+    
+    
+}
+
+.locationchild{
+    width: 300px;
+    
+    line-height: 2;
+    text-align: center;
+   
+
+}
+
+
+footer{
+    position: relative;
+    top: 350px;
+    
+}
+
+

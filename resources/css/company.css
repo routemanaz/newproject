@@ -1,0 +1,269 @@
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem;
+  
+  }
+
+header .content{
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+
+}
+header .icon {
+    width: 10rem;
+    padding-left: .75rem;
+  }
+
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #101067;
+    background-color: rgb(53, 28, 164);
+    color: aliceblue;
+   
+}
+
+
+header .logo{
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+  }
+
+  nav li {
+    padding-left: 3.5rem;
+    list-style: none;
+    padding-right: 1rem;
+    font-size: 3rem;
+  }
+
+  header .mobile{
+    display: none;
+  }
+
+  nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #101067;
+  }
+  
+
+
+/* banner and mission statement*/
+
+  #mission{
+   background-image: url('../images/company/bnn.jpg');
+   
+    
+    height: 47.5rem;
+   
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+
+
+  .banner{
+   position: relative;
+   top: 10rem;
+   
+   
+  }
+
+ #mission-statement-text{
+    font-size: 5.5rem;
+    color: white;
+    text-align: center;
+    
+  }
+
+  span{
+    color: rgb(53, 28, 164);
+  }
+  
+
+ 
+  /*products pitures*/
+  
+  .products{
+    position: relative;
+    top: 200px;
+  }
+
+  .image-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    column-gap: 25rem;
+    row-gap: 5rem;
+
+  }
+
+
+  .image-item{
+    flex-direction: row;
+
+  }
+
+  
+
+  #fanchoco{
+    text-align: center;
+    padding-right: 12.5rem;
+    
+    line-height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(53, 28, 164);
+    color: aliceblue;
+    box-shadow:  5px 5px 8px blue, 10px 10px 8px rgb(27, 22, 22), 15px 15px 8px green;
+  
+
+  }
+
+  #fan {
+    text-align: center;
+    padding-right: 12.5rem;
+    line-height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(53, 28, 164);
+    color: aliceblue;
+    box-shadow:  5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    border-radius: 25px 50px;
+   
+
+  }
+
+  .employees{
+    position: relative;
+    top: 300px;
+  }
+
+  #fandango{
+    text-align: center;
+    padding-right: 12.5rem;
+    line-height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(53, 28, 164);
+    color: aliceblue;
+    box-shadow:  5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    border-radius: 25px 50px;
+   
+
+  }
+
+  #fanice{
+    text-align: center;
+    padding-right: 12.5rem;
+    padding-bottom: -10px;
+    line-height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(53, 28, 164);
+    color: aliceblue;
+
+    position: relative;
+    top: 10px;
+    box-shadow:  5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    border-radius: 25px 50px;
+
+  }
+
+  #nutri{
+    text-align: center;
+    padding-right: 12.5rem;
+    line-height: 100px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(53, 28, 164);
+    color: aliceblue;
+    box-shadow:  5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    border-radius: 25px 50px;
+   
+
+  }
+
+
+  
+
+
+  
+
+  #image-fanchoco, #image-fanmaxx, #image-fandango, #image-fanice, #image-nutri {
+    padding-right: 12.5rem;
+  }
+
+  
+
+  #image-nutri{
+    padding-top: 5px;
+  }
+
+
+  .employees-pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+  }
+
+  .employees .emply{
+    flex-direction: row;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 1cm;
+   
+  }
+
+  .first, .second, .third{
+    border: 1px solid rgb(17, 7, 129);
+    border-radius: 4px;
+    padding: 20px;
+    
+    width: 150px;
+    
+    
+    
+  }
+
+  
+
+  /*names and position of employees*/
+
+  .mould{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  }
+
+  footer{
+  position: relative;
+  top: 8rem;
+  }
+    
+  .footer{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2rem;
+  }
+
+  
+
